@@ -109,3 +109,6 @@ Dockerfile.local
 security.properties
 *.crt
 *.key
+
+.conductor/
+.cache/
