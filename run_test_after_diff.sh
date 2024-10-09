@@ -10,7 +10,7 @@ all_tests=$(echo -e "$changed_tests\n$untracked_tests" | sed 's/src\/test\/java\
 # Check if there are any test files to run
 if [ -n "$all_tests" ]; then
   # Run the tests
- mvn test -q -Dtest="$all_tests"
+ mvn test -Dtest="$all_tests"
 else
   echo "No test files have been changed, added, or are untracked."
 fi
