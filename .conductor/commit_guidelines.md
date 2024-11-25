@@ -1,0 +1,1 @@
+Each git commit should include a subject and a body. The subject should not exceed 50 characters and the subject and body should be separated by a new line. The subject line should talk about "what" changed and the body should expand on "what" changed and talk about "why" it changed.

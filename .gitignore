@@ -110,5 +110,6 @@ security.properties
 *.crt
 *.key
 
-.conductor/
+.conductor/story_context.md
+.conductor/config.yml
 .cache/
